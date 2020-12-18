@@ -8,11 +8,11 @@ from pytz import timezone
 
 #Put your discord webhook url here.
 # If you're hosting on cloud and any kind of error occurs, try using discordapp.com instead of discord.com in the URL
-WEBHOOK_URL = 'https://discord.com/api/webhooks/787733891133079582/I4fsSallw0i8v4yzlER5ZlaixBluIWD5yriWQD2hsQhOndx35fpkgWTkWU606F-4jkFU'
+WEBHOOK_URL = 'Enter your webhook URL'
 
 url= 'https://www.amazon.in/Sony-Full-Frame-Mirrorless-Interchangeable-Lens-Camera/dp/B07B43WPVK/ref=sr_1_2?dchild=1&keywords=sony+a7&qid=1607783566&sr=8-2'
 
-headers= {"User-Agent": 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
+headers= {"User-Agent": 'Search for my user agent on google, copy and paste it over here'}
 	
 
 def check_price():
