@@ -7,11 +7,12 @@ import datetime
 from pytz import timezone
 from keep_running import keep_running
 
-#Put your discord webhook url here.
 # IMPORTANT : If the webhook url is not working or any error related to it is coming, try using discordapp.com instead of discord.com in the URL
-WEBHOOK_URL = 'https://discord.com/api/webhooks/790202073886490644/oj_3Fsd38ICh4hIG9y5wcmuMW7z4CjHbFVS4rYblTfeBTBkqnfh_QsZm7vLDetkjPhkX'
+#Put your discord webhook url here.
+WEBHOOK_URL = ' '
 
-headers= {"User-Agent": 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
+# Search for my user agent on google and copy the result and paste it over here.
+headers= {"User-Agent": ' '}
 	
 number_of_products= int(input("Enter number of products- "))
 while number_of_products>10:
