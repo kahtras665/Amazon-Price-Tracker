@@ -6,13 +6,12 @@ import time
 import datetime
 from pytz import timezone
 
-#Put your discord webhook url here.
 # IMPORTANT : If you're hosting on pythonanywhere, use discordapp.com instead of discord.com in the URL
-WEBHOOK_URL = 'https://discord.com/api/webhooks/787733891133079582/I4fsSallw0i8v4yzlER5ZlaixBluIWD5yriWQD2hsQhOndx35fpkgWTkWU606F-4jkFU'
+#Put your discord webhook url here.
+WEBHOOK_URL = ' '
 
-#url= 'https://www.amazon.in/Sony-Full-Frame-Mirrorless-Interchangeable-Lens-Camera/dp/B07B43WPVK/ref=sr_1_2?dchild=1&keywords=sony+a7&qid=1607783566&sr=8-2'
-
-headers= {"User-Agent": 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
+# Search for my user agent on google and copy the result and paste it over here.
+headers= {"User-Agent": ' '}
 	
 number_of_products= int(input("Enter number of products- "))
 while number_of_products>10:
