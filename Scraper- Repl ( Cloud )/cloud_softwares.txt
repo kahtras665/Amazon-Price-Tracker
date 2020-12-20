@@ -1,2 +1,2 @@
 repl.it
-uptimerobot.com
+uptimerobot.com - ( Create and add a new monitor first and then paste the web link which is above the console from repl ) 
